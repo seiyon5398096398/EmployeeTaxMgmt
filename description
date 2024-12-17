@@ -1,1 +1,11 @@
 tax management 
+Get -  http://localhost:8080/taxinfo
+Post  - http://localhost:8080/
+{
+  "firstname": "ss",
+  "lastname": "Doe",
+  "email": "ss.doe@example.com",
+  "phonenumber": [1234577890],
+  "doj": "2023-03-01",
+  "salary": 2800000
+}
